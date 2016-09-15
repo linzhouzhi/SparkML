@@ -10,6 +10,7 @@
 * cd  /Users/lzz/Library/Jupyter/kernels
 * mkdir spark
 * vim kernel.json
+
 ---
     {
     "display_name": "Spark 1.5.2 (Scala 2.10)",
