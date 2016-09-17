@@ -7,6 +7,7 @@
 * <img src="./formulary/2.png" width = "130px" height="50px" />
 * 面是特征值和特征向量点求解方法
 <img src="../images/evd.jpeg" width = "500px" height="620px" />
+
 ##  奇异值分解
 * 奇异值分解（Singular Value Decomposition）A＝SVD
 * 下面是证明对任意的m*n矩阵都可以分解成一个 大小为n*r的S矩阵，和一个r*r的对角矩阵V，及m*r的D矩阵，即A＝SVD
