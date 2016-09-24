@@ -7,15 +7,16 @@
 * <img src="./formulary/2.png" width = "130px" height="50px" />
 * 下面是二阶方阵特征值和特征向量点求解方法
 
- <img src="../images/evd.jpeg" width = "500px" height="620px" />
+ <img src="./formulary/svd/evd.jpeg" width = "500px" height="620px" />
 
 * 下面是三阶方阵特征值和特征向量的求法
- <img src="../images/evd2.jpeg" width = "500px" height="620px" />
+
+ <img src="./formulary/svd/evd2.jpeg" width = "500px" height="620px" />
 
 ##  奇异值分解
 * 奇异值分解（Singular Value Decomposition）A＝SVD
 * 下面是证明对任意的m*n矩阵都可以分解成一个 大小为n*r的S矩阵，和一个r*r的对角矩阵V，及m*r的D矩阵，即A＝SVD
-<img src="../images/svd.jpeg" width = "450px" height="570px" />
+<img src="./formulary/svd/svd.jpeg" width = "450px" height="570px" />
 
 ###  SVD求解步骤
     1 求AA'的特征值V和特征向量S,即AA'＝SVS'
