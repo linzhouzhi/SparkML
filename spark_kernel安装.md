@@ -34,3 +34,8 @@
     
 ### 4 查看结果
 * upyter kernelspec list //如果看到spark说明安装成功
+
+# 安装pyspark
+* export PYSPARK_DRIVER_PYTHON=/path/to/python27/bin/jupyter
+* export PYSPARK_DRIVER_PYTHON_OPTS="notebook --NotebookApp.open_browser=False --NotebookApp.ip='*' --NotebookApp.port=8888"
+* export PYSPARK_PYTHON=/path/to/python27/bin/python
