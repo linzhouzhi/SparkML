@@ -39,3 +39,13 @@
 * export PYSPARK_DRIVER_PYTHON=/path/to/python27/bin/jupyter
 * export PYSPARK_DRIVER_PYTHON_OPTS="notebook --NotebookApp.open_browser=False --NotebookApp.ip='*' --NotebookApp.port=8888"
 * export PYSPARK_PYTHON=/path/to/python27/bin/python
+
+# jupyter 中安装 R 
+* 参考https://github.com/IRkernel/IRkernel
+
+# jupyter 快捷键
+
+Shift-Enter : 运行本单元，选中下个单元
+Ctrl-Enter : 运行本单元
+Alt-Enter : 运行本单元，在其下插入新单元
+
