@@ -8,7 +8,7 @@ object WordCount extends App{
     .setAppName("clean app")
   val sc = new SparkContext(sparkConf)
 
-  val line = sc.textFile("hdfs://localhost:9000/word_count.txt")
+  val line = sc.textFile("hdfs://localhost:9000/word_count.txt",10)
   line.flatMap(_.split(" ")).map((_, 1)).reduceByKey(_+_).take(10).foreach(println)
   sc.stop()
 
