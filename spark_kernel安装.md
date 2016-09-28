@@ -33,7 +33,7 @@
     }
     
 ### 4 查看结果
-* upyter kernelspec list //如果看到spark说明安装成功
+* jupyter kernelspec list //如果看到spark说明安装成功
 
 # 安装pyspark
 * export PYSPARK_DRIVER_PYTHON=/path/to/python27/bin/jupyter
