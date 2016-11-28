@@ -25,11 +25,17 @@
   样本X和样本Y的协方差(Covariance)
 
     <img src="./formulary/pca/cov.png" width=400px />
+
+> 协方差之间具体的意义（两个随机变量 X 与 Y 之间相互关系）：  
+当 cov(X, Y)>0时，表明 X与Y 正相关；  
+当 cov(X, Y)<0时，表明X与Y负相关；  
+当 cov(X, Y)=0时，表明X与Y不相关。
+
 * 2 构建方差矩阵
 
     当样本大小为n时，它们之间的方差是一个大小为n的方阵
 
-    <img src="./formulary/pca/cov.png" width=400px />
+    <img src="./formulary/pca/cov2.png" width=400px />
 
 * 3 根据公式求出特征值，还有特征向量
 

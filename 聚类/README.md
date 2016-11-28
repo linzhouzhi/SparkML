@@ -5,7 +5,6 @@
 - ***k-means.ipynb***：翻译 Spark ML 中的 k-means 算法。
 - ***latent Dirichlet allocation (LDA).ipynb*** ： 翻译 Spark Mllib 算法。
 - ***PIC.ipynb***：翻译 Spark MLlib 的 PIC 算法。
-- ***streaming k-means.ipynb***：翻译 Spark MLlib 的 streaming k-means 算法。
 - ***聚类.ipynb***：Spark k-measn 实战例子。
 - ***高斯混合模型.ipynb***：翻译 Spark MLlib 的 高斯混合模型 算法。
 
